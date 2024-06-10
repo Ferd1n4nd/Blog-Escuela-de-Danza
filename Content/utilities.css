@@ -1,0 +1,175 @@
+/*Global*/
+*{
+	font-family: "Latolight";
+}
+
+@font-face{
+	font-family: LatoHeavy;
+	src: url(../fonts/LatoHeavy.ttf);
+}
+@font-face{
+	font-family:Latolight ;
+	src: url(../fonts/Latolight.ttf);
+}
+@font-face{
+	font-family: DolceVita;
+	src: url(../fonts/DolceVita.ttf);
+}
+@font-face{
+	font-family: Neoteric-Bold;
+	src: url(../fonts/Neoteric-Bold.ttf);
+}
+
+/* Shortcuts */
+
+.pd-0{
+	padding: 0;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.mg-0{
+	margin: 0;
+}
+.mg-10{
+	margin: 30px;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.lh2{
+	line-height: 2;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: rgb(147, 151, 156);
+}
+.text-blue{
+ 	color: #192951;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-gray{
+	background-color: rgb(244, 244, 244);
+}
+.bg-gray2{
+	background-color: rgba(0, 0, 0, 0.411);
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bg-patron{
+	width: 100%;
+	background-image: url(../img/cubes.png);
+	background-repeat: repeat;
+	background-size: 50px;
+}
+.en-cuadro{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.padd-clases{
+	width: 90%;
+	padding-left: 9%;
+	padding-right: 9%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.651);
+}
+.carousel-item {
+    transition: transform 0.5s ease;
+}
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+#busq-header{
+	color: rgb(147, 151, 156);
+	transition: background-color 0.3s;
+}
+#busq-header:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+	color: rgb(46, 47, 49);
+}
+#inscribete{
+	color: rgb(147, 151, 156);
+	font-size: 90%;
+	background-color: rgba(3, 8, 20,0.6);
+	border: none;
+	width: 130px;
+	height: 15%;
+	margin-top: 2%;
+	border-radius: 5%;
+	cursor: pointer;
+  	transition: background-color 0.3s;
+	transition: color 0.3s;
+}
+#inscribete:hover{
+	background-color: rgba(3, 8, 20,1);
+	color: white;
+}
+#ofertaclase{
+	position:relative;
+	color: rgb(187, 198, 220);
+	background-color: rgb(26, 41, 82);
+	border: none;
+	width: 300px;
+	height: 100%;
+	border-radius: 5%;
+	cursor: pointer;
+  	transition: background-color 0.3s;
+	transition: color 0.3s;
+}
+#ofertaclase:hover{
+	background-color: rgba(3, 8, 20,1);
+	color: white;
+}
+#btnenviar{
+	color: rgba(255, 255, 255, 0.767);
+	font-size: 100%;
+	background-color: rgb(26, 41, 82);
+	border: none;
+	width: 100px;
+	margin-top: 2%;
+	border-radius: 5%;
+	cursor: pointer;
+  	transition: background-color 0.3s;
+	transition: color 0.3s;
+}
+#btnenviar:hover{
+	background-color: rgb(3, 8, 20);
+	color: white;
+}
+#ver-mas{
+	color: rgb(147, 151, 156);
+	font-size: 90%;
+	background-color: rgb(26, 41, 82);
+	border: none;
+	width: 200px;
+	height: 37px;
+	margin-top: 1%;
+	cursor: pointer;
+  	transition: background-color 0.3s;
+	transition: color 0.3s;
+}
+#ver-mas:hover{
+	background-color: rgba(3, 8, 20,1);
+	color: white;
+}
